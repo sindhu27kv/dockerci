@@ -1,4 +1,4 @@
-node("docker") {
+node("aws-us-west-2") {
     def app
 
     stage('Clone repository') {
