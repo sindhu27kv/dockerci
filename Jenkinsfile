@@ -1,4 +1,4 @@
-node("aws-us-west-2") {
+node {
     def app
 
     stage('Clone repository') {
